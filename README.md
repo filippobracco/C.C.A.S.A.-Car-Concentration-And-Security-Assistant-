@@ -4,7 +4,7 @@ Progetto di IEIM 2016, Bracco Filippo e Di Vece Chiara
   Lo scopo del programma è quello di rilevare particolari condizioni non compatibili con una guida sicura attraverso face e eyes detection accertandosi che lo sguardo sia rivolto verso la strada mentre il veicolo è in movimento e che il conducente non sia vittima di colpi di sonno. Se queste condizioni non dovessero essere rispettate, il guidatore sarà richiamato all'attenzione con avvisi acustici e visivi. 
 
 ## Sorgente
-Il file eseguibile **codice.py** si trova nella cartella *Sorgente*; è possibile eseguire direttamente il codice con Python ma si rammenta di scaricare la cartella *Assets* contenente files, immagini e audio necessari per la corretta esecuzione del programma e soprattutto le librerie *faccia* e *occhi* presenti nella sottocartella *lib*, necessarie per l'ultilizzo dei classificatori.
+Il file eseguibile **codice.py** si trova nella cartella *Sorgente*; è possibile eseguire direttamente il codice con Python ma si rammenta di scaricare la cartella *Assets* contenente files, immagini e audio necessari per la corretta esecuzione del programma; sono inoltre necessari i moduli Python **cv2**, **Pyglet** e **numpy**.
 
 
 ## Documentazione

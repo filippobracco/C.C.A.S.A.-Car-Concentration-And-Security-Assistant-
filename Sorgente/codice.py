@@ -85,7 +85,6 @@ looper2.queue(sound2)
 avviso2 = pyglet.media.Player()
 avviso2.queue(looper2)
 
-distrazione = False
 
 while cv2.waitKey(30) != ord('s'):
     cv2.imshow('C.C.A.S.A.: Car Concentration And Security Assistant', quadro)
